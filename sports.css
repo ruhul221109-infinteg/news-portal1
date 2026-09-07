@@ -1,0 +1,1325 @@
+.list-titel ul li{
+gap: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: "Noto Sans Bengali",
+        "SolaimanLipi",
+        Arial,
+        sans-serif;
+}
+
+
+/* =====================================
+   MAIN SECTION
+===================================== */
+
+.sports-news {
+    width: 100%;
+    padding: 23px 68px 35px;
+}
+
+
+/* =====================================
+   MAIN GRID
+===================================== */
+
+.sports-container {
+    width: 100%;
+    max-width: 1165px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        382px
+        382px
+        1fr;
+
+    column-gap: 23px;
+}
+
+
+/* =====================================
+   BIG NEWS
+===================================== */
+
+.main-news {
+    width: 100%;
+}
+
+
+/* IMAGE */
+
+.main-image {
+    width: 100%;
+    height: 215px;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* BIG TITLE */
+
+.main-news h2 {
+    margin-top: 11px;
+
+    font-size: 28px;
+
+    line-height: 1.3;
+
+    font-weight: 700;
+
+    color: #20252b;
+
+    letter-spacing: -0.4px;
+}
+
+
+/* MIDDLE TITLE */
+
+.middle-news h2 {
+    font-size: 19px;
+
+    line-height: 1.45;
+
+    margin-top: 11px;
+}
+
+.middle-news h2 span {
+    color: #7d858c;
+}
+
+
+/* =====================================
+   SIDE NEWS
+===================================== */
+
+.side-news {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 28px;
+}
+
+
+/* =====================================
+   SIDE ITEM
+===================================== */
+
+.side-item {
+    width: 100%;
+
+    height: 91px;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+}
+
+
+/* SMALL IMAGE */
+
+.side-item img {
+    width: 155px;
+
+    height: 87px;
+
+    object-fit: cover;
+
+    border-radius: 9px;
+
+    flex-shrink: 0;
+}
+
+
+/* SIDE TITLE */
+
+.side-item h3 {
+    padding-top: 0;
+
+    font-size: 18px;
+
+    line-height: 1.4;
+
+    font-weight: 700;
+
+    color: #20252b;
+}
+
+
+/* =====================================
+   LAPTOP
+===================================== */
+
+@media (max-width: 1200px) {
+
+    .sports-news {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .sports-container {
+        grid-template-columns:
+            1fr
+            1fr;
+    }
+
+    .side-news {
+        grid-column: span 2;
+
+        display: grid;
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        margin-top: 25px;
+
+        gap: 20px;
+    }
+
+    .side-item {
+        height: auto;
+    }
+
+    .side-item img {
+        width: 130px;
+        height: 80px;
+    }
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 768px) {
+
+    .sports-news {
+        padding: 20px;
+    }
+
+    .sports-container {
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 18px;
+    }
+
+    .main-image {
+        height: 190px;
+    }
+
+    .main-news h2 {
+        font-size: 23px;
+    }
+
+    .middle-news h2 {
+        font-size: 18px;
+    }
+
+    .side-news {
+        grid-template-columns:
+            1fr;
+    }
+
+    .side-item img {
+        width: 180px;
+        height: 100px;
+    }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 576px) {
+
+    .sports-news {
+        padding: 15px;
+    }
+
+    .sports-container {
+        display: block;
+    }
+
+    .main-news {
+        margin-bottom: 25px;
+    }
+
+    .main-image {
+        height: 210px;
+    }
+
+    .main-news h2 {
+        font-size: 24px;
+    }
+
+    .middle-news h2 {
+        font-size: 18px;
+    }
+
+    .side-news {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        margin-top: 10px;
+    }
+
+    .side-item {
+        width: 100%;
+
+        height: auto;
+
+        gap: 12px;
+    }
+
+    .side-item img {
+        width: 140px;
+
+        height: 85px;
+    }
+
+    .side-item h3 {
+        font-size: 17px;
+    }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 375px) {
+
+    .main-news h2 {
+        font-size: 21px;
+    }
+
+    .side-item img {
+        width: 120px;
+        height: 75px;
+    }
+
+    .side-item h3 {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+/* secend */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+    font-family:
+        "Noto Sans Bengali",
+        "SolaimanLipi",
+        sans-serif;
+}
+
+
+/* ================================
+   MAIN SECTION
+================================ */
+
+.sports-grid-section {
+    width: 100%;
+    padding: 38px 65px 54px;
+}
+
+
+/* ================================
+   GRID
+================================ */
+
+.sports-grid {
+    width: 100%;
+    max-width: 1194px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    column-gap: 24px;
+}
+
+
+/* ================================
+   CARD
+================================ */
+
+.sports-card {
+    width: 100%;
+    min-width: 0;
+}
+
+
+/* ================================
+   IMAGE
+================================ */
+
+.sports-image {
+    width: 100%;
+    height: 159px;
+
+    overflow: hidden;
+    border-radius: 8px;
+
+    background: #ddd;
+}
+
+.sports-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* ================================
+   TITLE
+================================ */
+
+.sports-card h3 {
+    margin-top: 12px;
+
+    font-size: 18px;
+    line-height: 1.45;
+
+    font-weight: 700;
+
+    color: #20252b;
+
+    letter-spacing: -0.2px;
+}
+
+.sports-card h3 span {
+    color: #747c84;
+}
+
+
+
+/* thart */
+
+
+
+/* Header */
+
+.section-header {
+    height: 29px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 27px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1;
+    white-space: nowrap;
+    position: relative;
+    padding-left: 15px;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 4px;
+    height: 28px;
+    background: #777;
+}
+
+.header-line {
+    height: 2px;
+    background: #171717;
+    flex: 1;
+}
+
+.more {
+    font-size: 13px;
+    color: #333;
+    white-space: nowrap;
+    margin-left: 4px;
+}
+
+.more span {
+    font-size: 20px;
+    vertical-align: -2px;
+    margin-left: 5px;
+}
+
+/* =========================
+   CAROUSEL
+========================= */
+
+.carousel-wrapper {
+    position: relative;
+}
+
+.carousel-window {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 24px;
+    transition: transform .65s cubic-bezier(.4, 0, .2, 1);
+    will-change: transform;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+    flex: 0 0 280px;
+    height: 248px;
+    background: #f2f3f5;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.card-image {
+    width: 248px;
+    height: 141px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: 1338px 364px;
+}
+
+/*
+   Screenshot-এর original image area crop
+*/
+
+.card:nth-child(1) .card-image {
+    background-position: -83px -99px;
+}
+
+.card:nth-child(2) .card-image {
+    background-position: -387px -99px;
+}
+
+.card:nth-child(3) .card-image {
+    background-position: -691px -99px;
+}
+
+.card:nth-child(4) .card-image {
+    background-position: -995px -99px;
+}
+
+/* Extra slides - একই source image থেকে পুনরায় crop */
+
+.card:nth-child(5) .card-image {
+    background-position: -83px -99px;
+}
+
+.card:nth-child(6) .card-image {
+    background-position: -387px -99px;
+}
+
+.card:nth-child(7) .card-image {
+    background-position: -691px -99px;
+}
+
+.card:nth-child(8) .card-image {
+    background-position: -995px -99px;
+}
+
+.card-title {
+    margin-top: 13px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 1.45;
+    color: #111;
+}
+
+/* Gray metadata text */
+
+.card-title .gray {
+    color: #858585;
+}
+
+/* =========================
+   ARROWS
+========================= */
+
+.arrow {
+    position: absolute;
+    z-index: 10;
+    top: 111px;
+
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 34px;
+    font-family: Arial, sans-serif;
+
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.arrow:hover {
+    transform: scale(1.06);
+}
+
+.arrow-left {
+    left: -3px;
+    background: rgba(20, 20, 20, .78);
+}
+
+.arrow-right {
+    right: -2px;
+    background: rgba(130, 130, 130, .78);
+}
+
+.arrow-left::before {
+    content: "‹";
+    margin-top: -4px;
+}
+
+.arrow-right::before {
+    content: "›";
+    margin-top: -4px;
+}
+
+/* =========================
+   DOTS
+========================= */
+
+.dots {
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #737985;
+    background: #fff;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #697180;
+    border-color: #697180;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+
+    .cricket-section {
+        width: calc(100% - 30px);
+        max-width: none;
+        margin-top: 20px;
+    }
+
+    .section-header {
+        margin-bottom: 20px;
+    }
+
+    .carousel-track {
+        gap: 14px;
+    }
+
+    .card {
+        flex-basis: calc((100vw - 44px) / 2);
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .arrow-left {
+        left: -10px;
+    }
+
+    .arrow-right {
+        right: -10px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .cricket-section {
+        width: calc(100% - 24px);
+    }
+
+    .card {
+        flex-basis: 100%;
+    }
+
+    .header-line {
+        display: none;
+    }
+
+    .section-header {
+        justify-content: space-between;
+    }
+
+    .arrow {
+        width: 43px;
+        height: 43px;
+        top: 105px;
+    }
+}
+
+
+
+/* football */
+
+
+ /* =========================
+   FOOTBALL CAROUSEL
+========================= */
+
+.football-section {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 30px 28px 18px;
+    background: #7bc477;
+    overflow: hidden;
+}
+
+/* Header */
+.section-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    margin: 0;
+    padding-left: 11px;
+    border-left: 3px solid #666;
+
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.header-line {
+    flex: 1;
+    height: 2px;
+    
+    margin: 0 15px;
+}
+
+.see-more {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.see-more span {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+/* =========================
+   SLIDER
+========================= */
+
+.slider-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    gap: 23px;
+
+    transform: translateX(0);
+
+    transition: transform 0.6s ease-in-out;
+
+    will-change: transform;
+}
+
+
+/* Each Card */
+
+.slide {
+    flex: 0 0 calc((100% - 46px) / 3);
+    min-width: 0;
+}
+
+
+/* Image */
+
+.image-box {
+    width: 100%;
+    height: 157px;
+
+    overflow: hidden;
+    border-radius: 7px;
+
+    background: #ddd;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+.slide:hover .image-box img {
+    transform: scale(1.03);
+}
+
+
+/* Title */
+
+.slide-title {
+    margin: 10px 0 0;
+
+    color: #111;
+
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   ARROWS
+========================= */
+
+.arrow {
+    position: absolute;
+    top: 104px;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(25, 30, 32, 0.80);
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.arrow:hover {
+    background: rgba(10, 15, 18, 0.95);
+    transform: scale(1.05);
+}
+
+.arrow-left {
+    left: -2px;
+}
+
+.arrow-right {
+    right: -2px;
+}
+
+
+/* Arrow icon */
+
+.arrow-left::before {
+    content: "‹";
+
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1;
+
+    margin-top: -4px;
+}
+
+.arrow-right::before {
+    content: "›";
+
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1;
+
+    margin-top: -4px;
+}
+
+
+/* =========================
+   DOTS
+========================= */
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 15px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+
+    padding: 0;
+
+    border: 2px solid #7776a9;
+    border-radius: 50%;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background: #7776a9;
+    border-color: #7776a9;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+    .football-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .slide {
+        flex: 0 0 calc((100% - 23px) / 2);
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .football-section {
+        padding: 20px 15px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .header-line {
+        margin: 0 8px;
+    }
+
+    .see-more {
+        font-size: 12px;
+    }
+
+    .slide {
+        flex: 0 0 100%;
+    }
+
+    .image-box {
+        height: 190px;
+    }
+
+    .slide-title {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .arrow {
+        width: 44px;
+        height: 44px;
+        top: 73px;
+    }
+
+    .arrow-left {
+        left: 3px;
+    }
+
+    .arrow-right {
+        right: 3px;
+    }
+}
+
+
+/* section */
+
+
+/* =========================
+   MAIN PAGE
+========================= */
+
+.page {
+    width: 1281px;
+    height: 546px;
+    background: #fff;
+    overflow: hidden;
+    padding-top: 28px;
+}
+
+/* =========================
+   TWO COLUMN AREA
+========================= */
+
+.columns {
+    display: grid;
+    grid-template-columns: 600px 584px;
+    column-gap: 31px;
+
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+/* =========================
+   SECTION HEADER
+========================= */
+
+.section-header {
+    height: 29px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.section-title {
+    position: relative;
+    padding-left: 14px;
+    padding-right: 12px;
+
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 28px;
+    background: #888;
+}
+
+.section-line {
+    height: 2px;
+    background: #171717;
+    flex: 1;
+    margin-top: 2px;
+}
+
+.more {
+    margin-left: 16px;
+
+    color: #111;
+    font-size: 13px;
+    line-height: 20px;
+
+    white-space: nowrap;
+}
+
+.more span {
+    color: #777;
+    margin-left: 7px;
+    font-size: 18px;
+}
+
+/* =========================
+   LEFT / TENNIS
+========================= */
+
+.left {
+    width: 600px;
+}
+
+.left .section-header {
+    margin-bottom: 27px;
+}
+
+/*
+   The pale placeholder/watermark area
+   from the reference image.
+*/
+
+.left-placeholder {
+    width: 573px;
+    height: 322px;
+
+    margin-left: 12px;
+
+    overflow: hidden;
+
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+
+    /*
+       Crop the original screenshot's
+       pale placeholder region.
+    */
+    background-size: 1281px 546px;
+    background-position: -67px -85px;
+}
+
+/* First headline */
+
+.left-headline {
+    width: 600px;
+
+    margin-top: 14px;
+    padding-left: 10px;
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+/* Horizontal article separators */
+
+.left-list {
+    margin-top: 18px;
+    width: 596px;
+}
+
+.left-item {
+    height: 61px;
+
+    border-top: 1px solid #aaa;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.left-item:last-child {
+    border-bottom: 1px solid #aaa;
+}
+
+/* =========================
+   RIGHT / OTHER SPORTS
+========================= */
+
+.right {
+    width: 584px;
+}
+
+.right .section-header {
+    margin-bottom: 27px;
+}
+
+/* Main image */
+
+.right-image {
+    width: 572px;
+    height: 304px;
+
+    margin-left: 0;
+
+    border-radius: 7px;
+
+    overflow: hidden;
+
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+
+    /*
+       Exact crop of the photograph
+       in the supplied screenshot.
+    */
+    background-size: 1281px 546px;
+    background-position: -687px -85px;
+}
+
+/* =========================
+   IMAGE CAPTION
+========================= */
+
+.caption {
+    width: 572px;
+
+    margin-top: 9px;
+
+    font-size: 12px;
+    line-height: 17px;
+
+    color: #111;
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+/* =========================
+   RIGHT HEADLINE
+========================= */
+
+.right-headline {
+    width: 572px;
+
+    margin-top: 9px;
+
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.right-headline .muted {
+    color: #777;
+    font-weight: 600;
+}
+
+.right-headline .dot {
+    color: #888;
+    padding: 0 5px;
+}
+
+/* =========================
+   RIGHT SECOND ARTICLE
+========================= */
+
+.right-item {
+    width: 596px;
+
+    margin-top: 25px;
+
+    border-top: 1px solid #aaa;
+
+    padding: 10px 0 0 10px;
+
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+    .page {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .columns {
+        width: calc(100% - 30px);
+        margin: 20px 15px;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .left-placeholder,
+    .right-image,
+    .caption,
+    .right-headline {
+        max-width: 100%;
+    }
+
+    .left-placeholder {
+        margin-left: 0;
+        background-size: auto 546px;
+    }
+
+    .right-image {
+        background-size: auto 546px;
+    }
+
+    .left-list,
+    .left-item,
+    .right-item {
+        width: 100%;
+    }
+}

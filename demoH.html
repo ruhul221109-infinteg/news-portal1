@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>দৈনিক সংগ্রাম । সত্যের সংগ্রামে নিবেদিত</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Aowsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="details.css" />
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Logos -->
+
+      <div class="container">
+        <div class="Logoicon d-flex justify-content-center py-4">
+          <div class="img px-4">
+            <img
+              class="w-auto max-h-12 md:max-h-20 dark:hidden object-contain"
+              alt="logo"
+              src="https://static.dailysangram.com/original_images/DailySangram-Logo-en-H90_nmRtezH.png"
+            />
+          </div>
+          <div class="py-4 position-absolute end-0 text-end">
+            <span class="date-text"> মঙ্গলবার, ১১ আগস্ট, ২০২৬ </span>
+
+            <div class="py-2">
+              <a href=""
+                ><span class="ThIcon"><i class="bi bi-facebook"></i></span
+              ></a>
+              <a href=""
+                ><span class="ThIcon"><i class="bi bi-youtube"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- place navbar here -->
+      <div class="">
+        <nav class="navbar navbar-expand-lg" id="mainNavbar">
+          <div class="sticky-logo">
+            <a href="index.html">
+              <img
+                src="daily-sangram-vector-logo-seeklogo/daily-sangram-seeklogo.png"
+                alt="Daily Sangram"
+              />
+            </a>
+          </div>
+
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><span class="ThIcon"
+                ><i class="fa-notdog-duo fa-solid fa-house"></i> </span
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="catagory.html"
+                    >সর্বশেষ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >বাংলাদেশ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >আন্তর্জাতিক</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="sports.html"
+                    >খেলা</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >জীবনযাপন</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >মতামত</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >ভিডিও</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    আরো
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">ইসলাম</a></li>
+                    <li><a class="dropdown-item" href="#">ফিচার</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">সাহিত্য ও সংস্কৃতি</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"> বিজ্ঞান ও প্রযুক্তি</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ফটো</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >বেটা ভার্সন</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <a id="themeToggle" class="theme-toggle">
+                  <i class="bi bi-moon-fill" id="themeIcon"></i>
+                </a>
+
+                <button class="btn" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >ই-পেপার</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >আজকের পত্রিকা</a
+                    >
+                  </li>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- প্রচ্ছদ অর্থনীতি শিল্প ও বাণিজ্য -->
+
+    <section class="container">
+      <section class="container-details">
+        <div class="details">
+          <div class="right-side">
+            <nav
+              style="--bs-breadcrumb-divider: &quot;>&quot;"
+              aria-label="breadcrumb"
+            >
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html"
+                    ><i class="fa-notdog-duo fa-solid fa-house"></i>প্রচ্ছদ</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  অর্থনীতি
+                </li>
+              </ol>
+            </nav>
+
+
+
+            <h1 id="title">
+              বৈশ্বিক অনিশ্চয়তার মধ্যেও রপ্তানিতে বাংলাদেশের দাপট
+            </h1>
+
+            <!-- ======================ARTICLE META / SHARE SECTION====================== -->
+
+            <section class="article-meta">
+              <!-- Category -->
+              <h2 class="article-category">অনলাইন ডেস্ক</h2>
+
+              <!-- Published Date -->
+              <div class="published-info" id="date">
+                প্রকাশ : বুধবার, ০২ সেপ্টেম্বর ২০২৬, ০৯:২৪
+                <span class="sort-icon">↕</span>
+              </div>
+
+              <!-- Top Border -->
+              <div class="meta-line"></div>
+
+              <!-- Share Buttons -->
+              <div class="share-row">
+                <div class="share-left">
+                  <!-- Facebook -->
+                  <button class="share-btn">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+
+                  <!-- X -->
+                  <button class="share-btn">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </button>
+
+                  <!-- WhatsApp -->
+                  <button class="share-btn">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </button>
+
+                  <!-- Telegram -->
+                  <button class="share-btn">
+                    <i class="fa-brands fa-telegram"></i>
+                  </button>
+
+                  <!-- Copy Link -->
+                  <button class="copy-btn">
+                    <i class="fa-regular fa-copy"></i>
+                    <span>কপি লিংক</span>
+                  </button>
+                </div>
+
+                <div class="share-right">
+                  <!-- Share -->
+                  <button class="share-btn">
+                    <i class="fa-solid fa-share"></i>
+                  </button>
+
+                  <!-- Print -->
+                  <button class="share-btn">
+                    <i class="fa-solid fa-print"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Bottom Border -->
+              <div class="meta-line bottom-line"></div>
+            </section>
+            <img id="image" src="original.png" />
+            <p id="description">
+              বৈশ্বিক বাণিজ্যে নানা অনিশ্চয়তার মধ্যেও আগস্টে বাংলাদেশের পণ্য
+              রপ্তানিতে উল্লেখযোগ্য প্রবৃদ্ধি হয়েছে। তৈরি পোশাকসহ বিভিন্ন খাতের
+              ভালো পারফরম্যান্সে গত বছরের একই সময়ের তুলনায় এ মাসে রপ্তানি আয়
+              বেড়েছে ১৩ দশমিক ১৪ শতাংশ। আগস্টে মোট ৪৪৩ কোটি ডলারের পণ্য রপ্তানি
+              হয়েছে। গত বছরের একই মাসে এর পরিমাণ ছিল ৩৯২ কোটি ডলার।
+              <br /><br />
+
+              চলতি ২০২৬-২৭ অর্থবছরের প্রথম দুই মাসেও রপ্তানিতে ইতিবাচক ধারা
+              অব্যাহত রয়েছে। জুলাই ও আগস্ট মিলিয়ে ৯১৬ কোটি ডলারের পণ্য রপ্তানি
+              হয়েছে, যা আগের অর্থবছরের একই সময়ের ৮৬৯ কোটি ডলারের তুলনায় ৫ দশমিক
+              ৪৩ শতাংশ বেশি।
+              <br /><br />
+
+              মঙ্গলবার রপ্তানি উন্নয়ন ব্যুরোর (ইপিবি) প্রকাশিত সর্বশেষ
+              পরিসংখ্যানে এসব তথ্য উঠে এসেছে।
+              <br /><br />
+
+              আগস্টের রপ্তানি প্রবৃদ্ধিতে সবচেয়ে বড় ভূমিকা রেখেছে তৈরি পোশাক
+              খাত। এ মাসে পোশাক রপ্তানি থেকে আয় হয়েছে ৩৮৯ কোটি ডলার, যা গত বছরের
+              একই সময়ের চেয়ে ১৩ দশমিক ৯২ শতাংশ বেশি।
+              <br /><br />
+
+              অর্থবছরের প্রথম দুই মাসে পোশাক রপ্তানি হয়েছে ৭৫০ কোটি ডলারের। এতে
+              আগের বছরের একই সময়ের তুলনায় প্রবৃদ্ধি হয়েছে ৫ দশমিক ১২ শতাংশ।
+              <br /><br />
+
+              পোশাকের দুই প্রধান উপখাত নিট ও ওভেন—দুটিতেই আগস্টে ভালো প্রবৃদ্ধি
+              দেখা গেছে। নিট পোশাক রপ্তানি বেড়েছে ১৪ দশমিক ৮৮ শতাংশ। ওভেন
+              পোশাকের ক্ষেত্রে প্রবৃদ্ধি হয়েছে ১২ দশমিক ৭০ শতাংশ।
+              <br /><br />
+
+              জুলাই-আগস্টের হিসাবেও নিট পোশাক এগিয়ে রয়েছে। এ সময়ে নিট পোশাক
+              রপ্তানি বেড়েছে ৬ দশমিক ১৭ শতাংশ এবং ওভেন পোশাকের রপ্তানি বেড়েছে ৩
+              দশমিক ৮১ শতাংশ।
+              <br /><br />
+
+              শুধু তৈরি পোশাক নয়, অপ্রচলিত কয়েকটি রপ্তানি পণ্যেও আগস্টে
+              শক্তিশালী প্রবৃদ্ধি হয়েছে। পাট ও পাটজাত পণ্যের রপ্তানি বেড়েছে ৩৭
+              দশমিক ৯ শতাংশ। ওষুধে ২৮ দশমিক ৫২ শতাংশ, চামড়া ও চামড়াজাত পণ্যে ২৪
+              দশমিক ৮৫ শতাংশ এবং মুদ্রিত সামগ্রীতে ২৪ দশমিক ৮৩ শতাংশ প্রবৃদ্ধি
+              হয়েছে।
+              <br /><br />
+
+              এ ছাড়া প্রকৌশল পণ্যের রপ্তানি বেড়েছে ২৩ দশমিক ৮৮ শতাংশ এবং
+              অন্যান্য ধরনের পাদুকায় ১৫ দশমিক ২৯ শতাংশ।
+              <br /><br />
+
+              অর্থবছরের প্রথম দুই মাসের হিসাবে অপ্রচলিত খাতগুলোর মধ্যে সবচেয়ে
+              বেশি প্রবৃদ্ধি হয়েছে মুদ্রিত সামগ্রীতে—৪১ দশমিক ৮৯ শতাংশ। ওষুধ
+              রপ্তানি বেড়েছে ৩৮ দশমিক ৯৪ শতাংশ। একই সময়ে অন্যান্য ধরনের পাদুকায়
+              ২৭ দশমিক ৩২ শতাংশ এবং পাট ও পাটজাত পণ্যে ২২ দশমিক ২৬ শতাংশ
+              প্রবৃদ্ধি হয়েছে।
+              <br /><br />
+
+              বাংলাদেশের সবচেয়ে বড় রপ্তানি বাজার যুক্তরাষ্ট্রেও আগস্টে রপ্তানি
+              উল্লেখযোগ্য হারে বেড়েছে। এ মাসে দেশটিতে রপ্তানি প্রবৃদ্ধি হয়েছে ২৬
+              দশমিক ৯ শতাংশ। জুলাই-আগস্ট মিলিয়ে যুক্তরাষ্ট্রে রপ্তানি বেড়েছে ১১
+              দশমিক ৯০ শতাংশ।South Asians & Diaspora
+              <br /><br />
+
+              এদিকে বাংলাদেশের দ্বিতীয় বৃহত্তম রপ্তানি বাজার হিসেবে আবারও
+              যুক্তরাজ্য উঠে এসেছে। এরপর রয়েছে জার্মানি, স্পেন ও নেদারল্যান্ডস।
+              <br /><br />
+
+              উদীয়মান বাজারেও বাংলাদেশের পণ্যের চাহিদা বাড়ার চিত্র পাওয়া যাচ্ছে।
+              আগস্টে তুরস্কে রপ্তানি বেড়েছে ১৪১ দশমিক ৩ শতাংশ। দক্ষিণ কোরিয়ায়
+              প্রবৃদ্ধি হয়েছে ৪২ দশমিক ৩৭ শতাংশ এবং সৌদি আরবে ৪২ দশমিক ৯ শতাংশ।
+              <br /><br />
+
+              প্রধান বাজারগুলোতে চাহিদা বৃদ্ধি, বাংলাদেশকে নির্ভরযোগ্য পণ্য
+              সংগ্রহের উৎস হিসেবে ক্রেতাদের আস্থা, উৎপাদন সক্ষমতা বৃদ্ধি এবং
+              বেশি মূল্য সংযোজন হয়—এমন পণ্যের রপ্তানি বৃদ্ধিকে সামগ্রিক
+              প্রবৃদ্ধির পেছনে গুরুত্বপূর্ণ কারণ হিসেবে দেখা হচ্ছে।
+              <br /><br />
+
+              তৈরি পোশাকের পাশাপাশি ওষুধ, চামড়া, পাটজাত পণ্য, প্রকৌশল পণ্য ও
+              পাদুকার মতো খাতগুলোর ভালো ফলাফল রপ্তানি পণ্যে বৈচিত্র্য আনার
+              সম্ভাবনাকেও সামনে আনছে। বৈশ্বিক বাণিজ্যের প্রতিকূল পরিস্থিতির
+              মধ্যেও এসব খাতের প্রবৃদ্ধি বাংলাদেশের রপ্তানি সক্ষমতা ও
+              প্রতিযোগিতামূলক অবস্থানের জন্য ইতিবাচক সংকেত দিচ্ছে।
+              <br /><br />
+            </p>
+          </div>
+          <div class="left-side">
+            <h3>এই বিষয়ে আরও সংবাদ...</h3>
+            <div class="card" style="width: 15rem">
+              <img src="Assets/photo/ni1.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-text">
+                  এলডিসি উত্তরণের পর বাংলাদেশকে চ্যালেঞ্জের মুখোমুখি হতে হবে:
+                  সিসিসিআই সভাপতি
+                </h6>
+              </div>
+            </div>
+            <div class="card" style="width: 15rem">
+              <img src="ni2.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-text">
+                  শত শত কারখানার উৎপাদন ঠিকমতো হচ্ছে না গ্যাস-বিদ্যুৎ সংকটে
+                  শিল্প কারখানা টিকিয়ে রাখা দায়
+                </h6>
+              </div>
+            </div>
+            <div class="card" style="width: 15rem">
+              <img src="ni3.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-text">
+                  সততা ও ন্যায্যতার সঙ্গে ব্যবসা করলে সফলতা আসবেই: আবু তালেব
+                  মন্ডল এমপি
+                </h5>
+              </div>
+            </div>
+            <div class="card" style="width: 15rem">
+              <img src="ni4.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-text">
+                  নাটোরে আইবিডব্লিউএফের ব্যবসায়ী সম্মেলন অনুষ্ঠিত
+                </h5>
+              </div>
+            </div>
+            <div class="card" style="width: 15rem">
+              <img src="ni5.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-text">
+                  চীনের কাছ থেকে ইউনিটপ্রতি ২৫ টাকা দরে বিদ্যুৎ কিনবে সরকার
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sec -->
+
+      <hr />
+
+      <section class="footerSection">
+        <br />
+        <h4>সর্বশেষ প্রকাশিত খবর...</h4>
+        <div class="Latest">
+          <div class="card" style="width: 13rem">
+            <img src="ni1.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text">
+                সিন্ধুর পানিবণ্টনে ভারত-পাকিস্তান টানাপোড়েন: আন্তর্জাতিক
+                আদালতের রায়
+              </h5>
+              <p>
+                চুক্তি স্থগিত রাখার ভারতের সিদ্ধান্ত আইনগতভাবে বৈধ কি না- এ
+                বিষয়ে কোনো আন্তর্জাতিক আদালতের এটিই প্রথম রায়। <br />আন্তর্জাতিক
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem">
+            <img src="ni2.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text">
+                সিন্ধুর পানিবণ্টনে ভারত-পাকিস্তান টানাপোড়েন: আন্তর্জাতিক
+                আদালতের রায়
+              </h5>
+              <p>
+                চুক্তি স্থগিত রাখার ভারতের সিদ্ধান্ত আইনগতভাবে বৈধ কি না- এ
+                বিষয়ে কোনো আন্তর্জাতিক আদালতের এটিই প্রথম রায়। <br />আন্তর্জাতিক
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem">
+            <img src="ni3.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text">
+                সিন্ধুর পানিবণ্টনে ভারত-পাকিস্তান টানাপোড়েন: আন্তর্জাতিক
+                আদালতের রায়
+              </h5>
+              <p>
+                চুক্তি স্থগিত রাখার ভারতের সিদ্ধান্ত আইনগতভাবে বৈধ কি না- এ
+                বিষয়ে কোনো আন্তর্জাতিক আদালতের এটিই প্রথম রায়। <br />আন্তর্জাতিক
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem">
+            <img src="ni4.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text">
+                সিন্ধুর পানিবণ্টনে ভারত-পাকিস্তান টানাপোড়েন: আন্তর্জাতিক
+                আদালতের রায়
+              </h5>
+              <p>
+                চুক্তি স্থগিত রাখার ভারতের সিদ্ধান্ত আইনগতভাবে বৈধ কি না- এ
+                বিষয়ে কোনো আন্তর্জাতিক আদালতের এটিই প্রথম রায়। <br />আন্তর্জাতিক
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem">
+            <img src="ni5.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text">
+                সিন্ধুর পানিবণ্টনে ভারত-পাকিস্তান টানাপোড়েন: আন্তর্জাতিক
+                আদালতের রায়
+              </h5>
+              <p>
+                চুক্তি স্থগিত রাখার ভারতের সিদ্ধান্ত আইনগতভাবে বৈধ কি না- এ
+                বিষয়ে কোনো আন্তর্জাতিক আদালতের এটিই প্রথম রায়। <br />আন্তর্জাতিক
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+      <section class="container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item’s accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It’s also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <!-- VECTOR LINES -->
+      <svg
+        class="footer-lines"
+        viewBox="0 0 1366 409"
+        preserveAspectRatio="none"
+      >
+        <!-- Top + Left Rounded Box -->
+        <path
+          class="gray-line"
+          d="
+            M 0 21
+            H 47
+            Q 69 21 69 44
+            V 356
+            Q 69 379 92 379
+            H 348
+            Q 371 379 371 356
+            V 45
+            Q 371 21 394 21
+            H 1348
+            "
+        />
+
+        <!-- FIRST SEPARATOR -->
+        <path class="black-line" d="M 675 59 V 340" />
+
+        <!-- SECOND SEPARATOR -->
+        <path class="black-line" d="M 979 59 V 340" />
+      </svg>
+
+      <div class="footer-content">
+        <!-- =================================
+             ABOUT
+        ================================= -->
+
+        <div class="about-content">
+          <div class="logo">
+            <div class="logo-main">সংগ্রাম</div>
+            <div class="logo-sub">THE DAILY SANGRAM</div>
+          </div>
+
+          <p class="tagline">সত্যের সন্ধানে নিবেদিত</p>
+
+          <h3>সম্পাদকঃ আয়ম মীর শাহীদুল আহসান</h3>
+
+          <p class="about-text">
+            বাংলাদেশ পাবলিকেশন্স লিঃ-এর পক্ষে আবুল আসাদ কর্তৃক আল ফালাহ
+            প্রিন্টিং প্রেস, ৪৩, এলিফ্যান্ট রোড, বড় মগবাজার, ঢাকা-১২১৭ থেকে
+            মুদ্রিত ও প্রকাশিত।
+          </p>
+
+          <div class="about-line"></div>
+
+          <p class="social-title">সামাজিক মাধ্যমের সাথে থাকুন</p>
+
+          <div class="social-icons">
+            <a href="#">
+              <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- =================================
+             MENU
+        ================================= -->
+
+        <div class="menu-content">
+          <ul>
+            <li>
+              <a href="#">প্রচ্ছদ</a>
+            </li>
+
+            <li>
+              <a href="#">আজকের পত্রিকা</a>
+            </li>
+
+            <li>
+              <a href="#">আমাদের সম্পর্কে</a>
+            </li>
+
+            <li>
+              <a href="#">যোগাযোগ</a>
+            </li>
+          </ul>
+
+          <h3>
+            সকল স্বত্ব সংরক্ষিত © ২০২৬ দৈনিক<br />
+            সংগ্রাম
+          </h3>
+        </div>
+
+        <!-- =================================
+             CONTACT
+        ================================= -->
+
+        <div class="contact-content">
+          <h2>যোগাযোগ</h2>
+
+          <p>ইমেইল: news@dailysangram.com</p>
+
+          <p>
+            ফোন: ০২৯২২২২৬৪৪৮, ০২২২২২২৬৩৬৭, <br />
+            ০২২২২২২৬৮৬২,
+          </p>
+
+          <p>০২৪৮৩১৮১২৮, ০২৪৮৩২১০৭৩,</p>
+
+          <p>০২৫৮৩১০০১৩, ০১৭৭৫৪৮৯৩৫</p>
+
+          <i class="bi bi-chevron-down contact-arrow"></i>
+        </div>
+
+        <!-- =================================
+             SUBSCRIBE
+        ================================= -->
+
+        <div class="subscribe-content">
+          <input type="email" placeholder="Enter your email address" />
+
+          <button>সাবস্ক্রাইব</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- custom Script -->
+
+
+    <script src="demoh.js"></script>
+
+    <script>
+    const urlParams = new URLSearchParams(window.location.search);
+const newsId = urlParams.get('id');
+
+fetch('demo.json')
+  .then(res => res.json())
+  .then(data => {
+    // string বা number উভয় টাইপ ম্যাচ করার জন্য == ব্যবহার করা হয়েছে
+    const news = data.find(item => item.id == newsId);
+
+    if (news) {
+      // এলিমেন্ট পেজে থাকলে তবেই innerText/src সেট করবে
+      const elTitle = document.getElementById('title');
+      const elReporter = document.getElementById('reporter');
+      const elLocation = document.getElementById('location');
+      const elDate = document.getElementById('date');
+      const elImage = document.getElementById('image');
+      const elDesc = document.getElementById('description');
+
+      if (elTitle) elTitle.innerText = news.title || '';
+      if (elReporter) elReporter.innerText = news.reporter || '';
+      if (elLocation) elLocation.innerText = news.location || '';
+      if (elDate) elDate.innerText = news.date || '';
+      if (elImage && news.image) elImage.src = news.image;
+      if (elDesc) elDesc.innerText = news.description || '';
+    } else {
+      console.log('নিউজ পাওয়া যায়নি!');
+    }
+  })
+  .catch(err => console.error('Error fetching JSON:', err));
+            
+    </script>
+
+    <script src="demo.js"></script>
+    
+
+    <!-- Custom Script -->
+
+    <script src="script.js"></script>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

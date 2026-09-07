@@ -1,0 +1,501 @@
+.details{
+    display: flex;
+    margin: 7px;
+    padding: 5px;
+}
+.details h3{
+    background-color: #f5f1f1;
+    color: #807070;
+    font-size:x-large;
+}
+
+.right-side p {
+    font-size: 28px;
+}
+
+.right-side{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.left-side{
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.left-side .card{
+    margin-left: 20px;
+    border: none;
+  
+}
+
+.left-side .card > img{
+  overflow: hidden;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+/* =========================================
+   ARTICLE META SECTION
+========================================= */
+
+.article-meta {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 13px;
+    background: #fff;
+    color: #111;
+}
+
+
+/* =========================================
+   CATEGORY
+========================================= */
+
+.article-category {
+    margin: 13px 0 20px 0;
+    padding: 0;
+
+    font-family: "Noto Serif Bengali", "SolaimanLipi",
+                 "Siyam Rupali", serif;
+
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.4;
+
+    color: #111;
+}
+
+
+/* =========================================
+   PUBLISHED DATE
+========================================= */
+
+.published-info {
+    margin: 0 0 18px 0;
+
+    font-family: "Noto Serif Bengali", "SolaimanLipi",
+                 "Siyam Rupali", serif;
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: #111;
+}
+
+.sort-icon {
+    display: inline-block;
+    margin-left: 7px;
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    vertical-align: -2px;
+}
+
+
+/* =========================================
+   HORIZONTAL LINE
+========================================= */
+
+.meta-line {
+    width: 100%;
+    height: 1px;
+
+    background: #999;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   SHARE ROW
+========================================= */
+
+.share-row {
+    width: 100%;
+    min-height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   LEFT BUTTON GROUP
+========================================= */
+
+.share-left {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+/* =========================================
+   RIGHT BUTTON GROUP
+========================================= */
+
+.share-right {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+/* =========================================
+   COMMON SHARE BUTTON
+========================================= */
+
+.share-btn {
+    width: 57px;
+    height: 38px;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+
+    border: 1px solid #999;
+    border-radius: 9px;
+
+    color: #111;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    font-size: 16px;
+}
+
+
+/* =========================================
+   COPY LINK BUTTON
+========================================= */
+
+.copy-btn {
+    height: 38px;
+    min-width: 102px;
+
+    padding: 0 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    background: #fff;
+
+    border: 1px solid #999;
+    border-radius: 9px;
+
+    color: #111;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    font-family: "Noto Serif Bengali", "SolaimanLipi",
+                 "Siyam Rupali", serif;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.copy-btn i {
+    font-size: 15px;
+}
+
+
+/* =========================================
+   RIGHT BUTTONS
+========================================= */
+
+.share-right .share-btn {
+    width: 39px;
+}
+
+
+/* =========================================
+   BOTTOM LINE
+========================================= */
+
+.bottom-line {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   FONT AWESOME
+========================================= */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .article-meta {
+        padding: 0 10px;
+    }
+
+    .article-category {
+        font-size: 18px;
+    }
+
+    .published-info {
+        font-size: 15px;
+    }
+
+    .share-row {
+        min-height: 65px;
+    }
+
+    .share-left {
+        gap: 5px;
+    }
+
+    .share-right {
+        gap: 5px;
+    }
+
+    .share-btn {
+        width: 43px;
+        height: 36px;
+    }
+
+    .copy-btn {
+        min-width: 85px;
+        padding: 0 8px;
+        gap: 5px;
+        font-size: 13px;
+    }
+
+    .share-right .share-btn {
+        width: 38px;
+    }
+}
+.right-side img{
+    width: 95%;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Latest{
+    display: flex;
+    
+    padding: 15px ;
+}
+
+.footerSection h4{
+    margin-left: 40px;
+    font-weight: bold;
+    
+}
+
+.Latest .card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Latest .card{
+    border: none;
+}
+
+
+/* Hover Effects */
+
+
+
+/* ==========================================================================
+   Media Queries for All Devices (Responsive Styles)
+   ========================================================================== */
+
+/* 1. Extra Large & Large Screens (Desktops & Laptops: 992px to 1200px+) */
+@media (min-width: 992px) {
+  .details {
+    display: flex;
+    gap: 30px;
+  }
+
+  .right-side {
+    flex: 3;
+  }
+
+  .left-side {
+    flex: 1;
+  }
+
+  .Latest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+/* 2. Medium Screens / Tablets (IPads & Tablets: 768px to 991px) */
+@media (max-width: 991px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .right-side, .left-side {
+    width: 100%;
+  }
+
+  .left-side {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+  .left-side h3 {
+    width: 100%;
+  }
+
+  .left-side .card {
+    width: 48% !important; /* কার্ড দুটি দুটি করে থাকবে */
+    margin-bottom: 15px;
+  }
+
+  .Latest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+  .Latest .card {
+    width: 48% !important;
+  }
+
+  /* Footer Adjustments */
+  .footer-lines {
+    display: none; /* ট্যাবলেটে ব্যাকগ্রাউন্ড ভেক্টর লাইনগুলো ঠিকমত স্কেল হতে সমস্যা না করার জন্য হাইড করা ভালো */
+  }
+
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .about-content, .menu-content, .contact-content, .subscribe-content {
+    width: 48%;
+  }
+}
+
+/* 3. Small Screens / Mobile Devices (Smartphones: 767px and down) */
+@media (max-width: 767px) {
+  /* Header Adjustments */
+  .Logoicon {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Logoicon .position-absolute {
+    position: static !important;
+    text-align: center !important;
+    padding-top: 10px !important;
+  }
+
+  /* Dynamic Article & Image */
+  #mainImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Article Meta / Share Section */
+  .share-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .share-left, .share-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  /* Side News & Latest News Cards */
+  .left-side .card, .Latest .card {
+    width: 100% !important; /* মোবাইলে কার্ডগুলো ফুল উইডথ হবে */
+    margin-bottom: 15px;
+  }
+
+  /* Footer Section for Mobile */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .about-content, .menu-content, .contact-content, .subscribe-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .subscribe-content input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-content button {
+    width: 100%;
+  }
+}
+
+/* 4. Extra Small Screens (Small Mobile Devices: Below 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #mainDescription {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
